@@ -380,16 +380,6 @@ body {
     backdrop-filter: blur(15px);
 }
 
-.content-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 40px;
-    width: 90%;
-    max-width: 1200px;
-    margin: 40px auto;
-}
-
 .info-text-box {
     flex: 1.5;           
     min-width: 450px;    
@@ -399,17 +389,27 @@ body {
     box-shadow: 20px 20px 0px rgba(60, 179, 113, 0.1);
     text-align: left;    
 }
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    width: 90%;
+    max-width: 1200px; 
+    margin: 40px auto;
+}
 
 .info-media-clean {
-    flex: 1;
+    flex: 2; 
     display: flex;
     justify-content: center;
 }
 
 .info-media-clean img {
     width: 100%;
-    max-width: 500px;
+    max-width: 900px; 
     border-radius: 20px;
+    object-fit: contain; 
 }
 
 .tag {
